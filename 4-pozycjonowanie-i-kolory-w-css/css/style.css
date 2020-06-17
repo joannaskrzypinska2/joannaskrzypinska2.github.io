@@ -1,128 +1,99 @@
 .main-square {
-    height: 910px;
-    width: 910px;
-    background-color: brown;
-    border: 5px solid silver;
-    position: relative;
+    height: 312px;
+    width: 312px;
+    border: 2px solid silver;
 }
 
 .square {
-    height: 300px;
-    width:300px;
-    border: 5px solid silver;
-    position:absolute;
-    z-index: 5;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid silver;
+    padding: 10px;
 }
 
 .red {
     background-color: red;
-    up:0;
 }
 
 .yellow {
     background-color: yellow;
-    top: 300px;
 }
 
 .purple {
     background-color: purple;
-    bottom: 0;
 }
 
 .blue {
     background-color: blue;
-    right: 300px;
 }
 
 .black {
     background-color: black;
-    right:300px;
-    bottom:300px;
 }
 
 .gray {
     background-color: gray;
-    right: 300px;
-    bottom: 0;
 }
 
 .green {
     background-color: green;
-    right: 0;
-    top: 0;
 }
 
 .orange {
     background-color: orange;
-    right: 0;
-    bottom: 300px;
 }
 
 .pink {
     background-color: pink;
-    right: 0;
-    bottom: 0;
 }
 
 .circle {
-    width:150px;
-    height: 150px;
-    border:2px solid black;
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
     border-radius: 50%;
     position: absolute;
-    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .pink-1 {
     background-color: pink;
-    top: 5%;
-    left: 5%;
 }
 
 .green-1 {
     background-color: green;
-    top: 50%;
-    left: 10%;
 }
 
 .orange-1 {
     background-color: orange;
-    bottom:10%;
-    left: 5%;
 }
 
 .gray-1 {
     background-color: gray;
-    top: 10%;
-    right:40%;
 }
 
 .red-1 {
     background-color: red;
-    top: 50%;
-    right: 50%;
 }
 
 .yellow-1 {
-    background-color: yellow;
-    bottom: 10%;
-    right: 50%;
+    background-color: yellow;  
 }
 
 .purple-1 {
-    background-color: purple;
-    top: 10%;
-    right: 10%;
+    background-color: purple; 
 }
 
 .blue-1 {
-    background-color: blue;
-    top: 50%;
-    right: 10%;
+    background-color: blue; 
 }
 
 .black-1 {
     background-color: black;
-    bottom: 10%;
-    right: 5%;
 }
+
+* {box-sizing: border-box;}
