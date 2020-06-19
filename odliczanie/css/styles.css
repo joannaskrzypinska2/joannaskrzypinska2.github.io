@@ -1,0 +1,40 @@
+.count {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-color: pink;
+}
+
+.number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    argin-right: -50%;
+    transform: translate(-50%, -50%)
+    height: 100%;
+    width:100%;
+    font-size: 50px;
+
+}
+
+@keyframes count {
+    {
+        0%, 100% { transform:translateY(-100%); }
+        10% { transform:translateY(0); }
+        20% { transform:translateY(0); }
+        30% { transform:translateY(0); }
+        40% { transform:translateY(0); }
+        50% { transform:translateY(0); }
+        60% { transform:translateY(0); }
+        70% { transform:translateY(0); }
+        80% { transform:translateY(0);}
+        90% { transform:translateY(100%) }
+
+}
+
+.number {
+    animation-name: count;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
