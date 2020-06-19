@@ -2,39 +2,67 @@
     position: relative;
     height: 250px;
     width: 250px;
-    background-color: pink;
+    background-color: greenyellow;
 }
 
 .number {
     position: absolute;
     top: 50%;
     left: 50%;
-    argin-right: -50%;
-    transform: translate(-50%, -50%)
-    height: 100%;
-    width:100%;
+    margin: 0;
+    transform: translate(-50%, -50%);
     font-size: 50px;
+    animation-name: count;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    opacity: 0;
+}
 
+#p11 {
+    animation-delay: 33s;
+}
+
+#p10 {
+    animation-delay: 30s;
+}
+
+#p9 {
+    animation-delay: 27s;
+}
+
+#p8 {
+    animation-delay: 24s;
+}
+
+#p7 {
+    animation-delay: 21s;
+}
+
+#p6 {
+    animation-delay: 18s;
+}
+
+#p5 {
+    animation-delay: 15s;
+}
+
+#p4 {
+    animation-delay: 12s;
+}
+
+#p3 {
+    animation-delay: 9s;
+}
+
+#p2 {
+    animation-delay: 6s;
+}
+
+#p1 {
+    animation-delay: 3s;
 }
 
 @keyframes count {
-    {
-        0%, 100% { transform:translateY(-100%); }
-        10% { transform:translateY(0); }
-        20% { transform:translateY(0); }
-        30% { transform:translateY(0); }
-        40% { transform:translateY(0); }
-        50% { transform:translateY(0); }
-        60% { transform:translateY(0); }
-        70% { transform:translateY(0); }
-        80% { transform:translateY(0);}
-        90% { transform:translateY(100%) }
-
-}
-
-.number {
-    animation-name: count;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+        0%, 100% { opacity: 0; }
+        50% { opacity: 1; }
 }
