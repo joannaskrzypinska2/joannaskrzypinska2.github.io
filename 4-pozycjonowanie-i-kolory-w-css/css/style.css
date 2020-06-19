@@ -1,7 +1,8 @@
 .main-square {
-    height: 312px;
-    width: 312px;
+    height: 304px;
+    width: 304px;
     border: 2px solid silver;
+    font-size: 0;
 }
 
 .square {
@@ -59,41 +60,4 @@
     left: 50%;
     transform: translate(-50%, -50%)
 }
-
-.pink-1 {
-    background-color: pink;
-}
-
-.green-1 {
-    background-color: green;
-}
-
-.orange-1 {
-    background-color: orange;
-}
-
-.gray-1 {
-    background-color: gray;
-}
-
-.red-1 {
-    background-color: red;
-}
-
-.yellow-1 {
-    background-color: yellow;  
-}
-
-.purple-1 {
-    background-color: purple; 
-}
-
-.blue-1 {
-    background-color: blue; 
-}
-
-.black-1 {
-    background-color: black;
-}
-
 * {box-sizing: border-box;}
