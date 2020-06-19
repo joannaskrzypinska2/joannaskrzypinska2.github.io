@@ -1,0 +1,22 @@
+#gallery {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+figure {
+	display: inline-block;
+	width: 33%;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+	figure {width: 49%;}
+}
+
+@media screen and (max-width: 768px) {
+	figure {width: 100%;}
+
+	@media screen and (max-width: 480px) {
+		#gallery {width: 100%;}
