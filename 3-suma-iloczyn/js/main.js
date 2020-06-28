@@ -1,11 +1,10 @@
 /* Pierwsza wersja */
 
 let liczby= [1,2,3,4,5,6];
-let i;
 let suma=0;
 let iloczyn=1;
 
-for(i=0 ; i < liczby.length; i++) {
+for(let i=0 ; i < liczby.length; i++) {
   suma += liczby[i];
   iloczyn *= liczby[i];
 }
@@ -15,7 +14,7 @@ for(i=0 ; i < liczby.length; i++) {
 
   /* Druga wersja: */
 
-  addAndMultiply([1, 2, 3, 4, 5, 6]);
+  
   function addAndMultiply(parametr){
 
     // zapisanie tablicy jako parametr funkcji
@@ -35,3 +34,5 @@ for(i=0 ; i < liczby.length; i++) {
     console.log('Iloczyn elementów tablicy = ' + multiplyResult );
     
   }
+  // wywołanie funkcji
+  addAndMultiply([1, 2, 3, 4, 5, 6]);
