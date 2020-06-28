@@ -1,18 +1,28 @@
 let jsonPracownicy = {
-    "pracownicy": [
-        { "firstName": "Krystian", "lastName": "Dziopa" },
-        { "firstName": "Anna", "lastName": "Szapiel" },
-        { "firstName": "Piotr", "lastName": "Żmuda" }
+  "pracownicy": [
+      { "firstName": "Krystian", "lastName": "Dziopa" },
+      { "firstName": "Anna", "lastName": "Szapiel" },
+      { "firstName": "Piotr", "lastName": "Żmuda" }
 ]
 }
 
-
-for (let element of Object.keys(jsonPracownicy.pracownicy[0])) {
-  let employee = jsonPracownicy.pracownicy[element];
-  console.log(`Klucz: ${element}, Wartość: ${employee}`);
+console.log(jsonPracownicy);
+let employee = jsonPracownicy.pracownicy[0];
+for (let property of Object.keys(employee)) {
+console.log(property);
+console.log(employee);
+console.log(`Klucz: ${property}, Wartość: ${employee[property]}`);
 }
 
+/* const obj = jsonPracownicy.pracownicy[0]
+Object.keys(jsonPracownicy.pracownicy[0]).forEach( key => {
+console.log(`Klucz: ${key}, Wartość: ${obj[key]}`)
+}) */
 
+// const obj = jsonPracownicy.pracownicy[0]
+// Object.keys(obj).forEach( key => {
+//  console.log(`Klucz: ${key}, Wartość: ${obj[key]}`)
+// })
 
 
 
