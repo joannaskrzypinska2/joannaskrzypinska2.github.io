@@ -1,4 +1,3 @@
-SumaKwadratów([0,1,2,3,4,5]);
 function SumaKwadratów(parametr) {
     /*  zapisanie tablicy jako parametr funkcji */
     let tablica = [];
@@ -19,4 +18,5 @@ function SumaKwadratów(parametr) {
     /* zwrócenie wyniku działania funkcji */
     return suma; 
 }
-
+//wywołanie funkcji
+SumaKwadratów([0,1,2,3,4,5]);
