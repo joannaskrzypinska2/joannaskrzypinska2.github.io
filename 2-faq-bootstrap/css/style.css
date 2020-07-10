@@ -1,0 +1,12 @@
+*{
+    color: #969696;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover {
+    color: #969696;
+}
+
+hr {
+    width: 40%;
+}
