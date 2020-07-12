@@ -3,7 +3,7 @@ const count = (a, b, c) => {
     console.log(result);
     if (result < 0) {
         console.log("brak miejsc zerowych");
-    } else if (result = 0) {
+    } else if (result == 0) {
         console.log("jedno miejsce zerowe");
     } else if (result > 0) {
         console.log("dwa miejsca zerowe");
