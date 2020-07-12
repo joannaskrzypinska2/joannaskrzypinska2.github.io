@@ -3,6 +3,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.btn {
+    color: orange;
+}
+
 .btn-link:hover {
     color: #969696;
 }
